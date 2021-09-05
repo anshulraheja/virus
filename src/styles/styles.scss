@@ -138,14 +138,14 @@ $fifth: rgba(87, 204, 153, 0.6);
   width: 40%;
   height: 100%;
 }
-.video-container {
+.video-top {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 90vh;
   flex-direction: column;
-}
-.video {
-  display: flex;
-  justify-content: center;
+  // justify-content: center;
   align-items: center;
+}
+.video-container {
+  width: 720px;
+  // height: 720px;
 }
